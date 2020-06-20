@@ -1,3 +1,6 @@
+/** Źródło: https://bukkit.org/threads/language-files.149837/ */
+
+
 package WIELKIPLUGIN.enums;
  
 import org.bukkit.ChatColor;
@@ -5,7 +8,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
  
 public enum Lang {
     TITLE("plugin-title", "&4WielkiPlugin:"),
-    HELPCMD("help-command", "/** dodajcie własną wiadomość *\"),
+    HELPCMD("help-command", "/** dodajcie własną wiadomość */"),
     INVALID_ARGS("invalid-args", "&cBłąd, sprawdź czy podałeś odpowiednią ilość argumentów!"),
     PLAYER_ONLY("player-only", "Przepraszamy konsolo!"),
     NO_PERMS("no-permissions", "&cNie posiadasz uprawnien do tej komendy");
