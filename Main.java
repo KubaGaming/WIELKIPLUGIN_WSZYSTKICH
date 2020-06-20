@@ -44,5 +44,13 @@ public class Main implements JavaPlugin {
     }
     }
 }
-  
+
+public YamlConfiguration getLang() {
+    return LANG;
+}
+
+public File getLangFile() {
+    return LANG_FILE;
+}
+
   }
